@@ -1,3 +1,3 @@
 "use strict";
 
-throw undefined;
+throw null;
