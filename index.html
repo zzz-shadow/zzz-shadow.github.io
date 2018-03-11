@@ -2,7 +2,9 @@
 <head>
 <script type="module">
   "use strict";
-  import('./aaa.mjs').then(e => console.log("haha", e));
+  import('./aaa.mjs')
+  .then(m => console.log("ok"))
+  .catch(e => console.log("haha", e));
 </script>
 </head>
 </html>
