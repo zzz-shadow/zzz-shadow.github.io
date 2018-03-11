@@ -1,7 +1,8 @@
 <html>
 <head>
 <script type="module">
-  import './aaa.mjs';
+  "use strict";
+  import('./aaa.mjs').then(e => console.log("haha", e));
 </script>
 </head>
 </html>
